@@ -1,0 +1,26 @@
+{
+  "name": "online_dictionary",
+  "version": "1.0.0",
+  "description": "Online dictionary project of WAP",
+  "main": "Dictionary.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NirmalSilwal/Online_Dictionary.git"
+  },
+  "keywords": [
+    "online",
+    "dictionary"
+  ],
+  "author": "Nirmal Silwal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NirmalSilwal/Online_Dictionary/issues"
+  },
+  "homepage": "https://github.com/NirmalSilwal/Online_Dictionary#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
