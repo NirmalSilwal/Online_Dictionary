@@ -1,3 +1,25 @@
 body {
-    background-color: red;
+    /* background-color: rgb(123, 140, 133); */
+    background-color: #E4F9F5;
+    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
+    margin: auto 500px;
+    font-family: 'Merriweather', serif;
+}
+
+button {
+    font-size: 25px;
+    margin-left: 150px;
+}
+
+h1 {}
+
+#mylabel {
+    font-size: 30px;
+}
+
+.searchme {
+    font-size: 30px;
+    padding: 3pt;
+    width: 300px;
+    font-size: 14pt;
 }
