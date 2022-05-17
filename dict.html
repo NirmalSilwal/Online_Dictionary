@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My dictionary</title>
-    
+
     <link href="dict.css" rel="stylesheet">
 
     <link rel="icon" href="images/favicon.ico">
@@ -21,13 +21,15 @@
     <h1>Online Dictionary</h1>
     <div>
 
-        <label id="mylabel">Term:</label>
-        <input class="searchme" type="text" name="searchterm" placeholder="type any word here">
-        <br /><br />
+        <form action="/" method="post">
+            <label id="mylabel">Term:</label>
+            <input class="searchme" type="text" name="searchterm" placeholder="type any word here">
+            <br /><br />
 
-        <div>
-            <button type="button" name="submit">Lookup</button>
-        </div>
+            <div>
+                <button type="submit" name="submit">Lookup</button>
+            </div>
+        </form>
     </div>
 
 

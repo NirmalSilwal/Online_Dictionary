@@ -1,7 +1,5 @@
 body {
-    /* background-color: rgb(123, 140, 133); */
     background-color: #E4F9F5;
-    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     margin: auto 500px;
     font-family: 'Merriweather', serif;
 }
@@ -11,7 +9,9 @@ button {
     margin-left: 150px;
 }
 
-h1 {}
+h1 {
+    background-color: rgb(149, 176, 88);
+}
 
 #mylabel {
     font-size: 30px;
