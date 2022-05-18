@@ -5,9 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My dictionary</title>
-
-    <link href="dict.css" rel="stylesheet">
+    <title>Online Dictionary</title>
 
     <link rel="icon" href="images/favicon.ico">
 
@@ -15,29 +13,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
         rel="stylesheet">
+
+    <link href="css" rel="stylesheet" type="text/css">
+    <script src="jquery" charset="utf-8"></script>
+    <script src="dict" charset="utf-8"></script>
+
 </head>
 
 <body>
     <h1>Online Dictionary</h1>
+
     <div>
 
-        <form action="/" method="post">
-            <label id="mylabel">Term:</label>
-            <input class="searchme" type="text" name="searchterm" placeholder="type any word here">
-            <br /><br />
+        <label id="mylabel">Term:</label>
+        <input class="searchme" type="text" id="searchterm" name="searchterm" placeholder="type any word here">
+        <br /><br />
 
-            <div>
-                <button type="submit" name="submit">Lookup</button>
-            </div>
-        </form>
+        <div>
+            <button class="btn" type="submit" name="submit">Lookup</button>
+        </div>
+        <div id="lastdiv">
+
+        </div>
     </div>
 
 
-
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="dict.js" charset="utf-8"></script>
-    <script src="jQuery.js" charset="utf-8"></script>
-    <script src="Dictionary.js" charset="utf-8"></script>
 </body>
 
 </html>

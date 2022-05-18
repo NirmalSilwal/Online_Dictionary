@@ -1,6 +1,7 @@
 body {
     background-color: #E4F9F5;
-    margin: auto 500px;
+    /* margin: auto 500px; */
+    text-align: left;
     font-family: 'Merriweather', serif;
 }
 
