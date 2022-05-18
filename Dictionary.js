@@ -28,9 +28,9 @@ app.get("/dict", function (req, res) {
 
 app.get("/search", function (req, res) {
     let valueofsearch = req.query.searchterma;
-    
+
     let sql = `select * from entries.entries WHERE word='${valueofsearch}';`
-    
+
     connection.query(sql, (error, results, fields) => {
         if (error) {
             return console.error(error.message);
